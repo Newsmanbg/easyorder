@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:background="@color/dark_overlay"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_height="match_parent"
+    tools:context=".MyOrders">
+    <ListView
+        android:id="@+id/lvProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_below="@+id/header"
+        tools:listitem="@layout/order_list_item"
+        android:paddingBottom="50dp"
+        android:divider="@color/transparent"
+        android:dividerHeight="2dp">
+    </ListView>
+</RelativeLayout>
