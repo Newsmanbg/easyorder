@@ -6,4 +6,11 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        android:title="My cart"
+        android:iconTint="@color/white"
+        android:icon="@drawable/cart"
+        app:showAsAction="ifRoom" />
 </menu>

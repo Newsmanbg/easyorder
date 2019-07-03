@@ -6,5 +6,10 @@
     <color name="transparent">#00ffffff</color>
     <color name="textBold">#42100d</color>
     <color name="textLight">#f3dcb3</color>
+    <color name="colorSuccess">#26734d</color>
     <color name="white">#ffffff</color>
+    <color name="black">#212121</color>
+    <color name="red">#810707</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="dark_overlay">#efebe9</color>
 </resources>

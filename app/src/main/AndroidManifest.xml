@@ -3,7 +3,7 @@
     package="com.newsmanbg.android.easyorder">
 
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -15,9 +15,41 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".CartActivity"
+            android:label="@string/title_activity_cart"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.newsmanbg.android.easyorder.MainActivity" />
+        </activity>
+        <activity
+            android:name=".CheckoutActivity"
+            android:label="@string/title_activity_checkout"
+            android:parentActivityName=".CartActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.newsmanbg.android.easyorder.CartActivity" />
+        </activity>
+        <activity
+            android:name=".MyOrders"
+            android:label="My Orders"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.newsmanbg.android.easyorder.MainActivity" />
+        </activity>
+        <activity android:name=".OrderDetails"
+            android:label="Order Details"
+            android:parentActivityName=".MyOrders">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.newsmanbg.android.easyorder.MyOrders" />
         </activity>
     </application>
 
