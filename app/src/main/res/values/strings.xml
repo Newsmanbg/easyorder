@@ -18,4 +18,35 @@
         <item>Debit card</item>
         <item>Bank transfer</item>
     </string-array>
+
+
+    <string name="some_string">Intro Slider</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Free Course Materials</string>
+    <string name="slide_1_desc">The easiest way to get your handout and notes</string>
+
+    <string name="slide_2_title">E-Testing</string>
+    <string name="slide_2_desc">Communicate with ease</string>
+
+    <string name="slide_3_title">Noiseless Communication </string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">Great Market Place</string>
+    <string name="slide_4_desc">Buy and sell your stuffs</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
 </resources>
